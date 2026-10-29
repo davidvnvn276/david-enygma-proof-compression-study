@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "published_release": 2,
+  "artifacts": [
+    {
+      "path": "keys/Enygmak2Pk.key",
+      "sha256": "bfa264c3c64c539c921d4e570602b206801392fb41b37eae765d9ec39cb4e094",
+      "bytes": 2454265
+    },
+    {
+      "path": "keys/Enygmak2Vk.key",
+      "sha256": "4de7890f8ae8137b1d807b5db798cfc35f53b52cdc8e97a3a33b0a1f639fd2b4",
+      "bytes": 908
+    },
+    {
+      "path": "EnygmaVerifierk2_raw.sol",
+      "sha256": "7c9da5b9fefdace5990f6d9dcdcb220f2b6b7179a9dbd5e99edfa8c2c712d96d",
+      "bytes": 34613
+    },
+    {
+      "path": "keys/Enygmak3Pk.key",
+      "sha256": "415238e01804ebba7c0105724a8bdc3d65ef440c05e0fe36a93c34e36a668762",
+      "bytes": 3610735
+    },
+    {
+      "path": "keys/Enygmak3Vk.key",
+      "sha256": "4d73029be8bad788fdaf7dea34ef45e6526c066c93a3601ba76a0fe3198722f2",
+      "bytes": 1164
+    },
+    {
+      "path": "EnygmaVerifierk3_raw.sol",
+      "sha256": "a3402cadb7ebcb7c94f0f6775a47385750f4bea78cba82e1d786538ec228e69a",
+      "bytes": 39439
+    },
+    {
+      "path": "keys/Enygmak4Pk.key",
+      "sha256": "d5dd52db63fd88d7b6d2d287faf4e67a4aab033bde220c2cc0e89a67b4bd736e",
+      "bytes": 4242917
+    },
+    {
+      "path": "keys/Enygmak4Vk.key",
+      "sha256": "7dd5c7a6674119305b68cdbf44fad449fab97e296f3083d3554aacf8cc1b18f2",
+      "bytes": 1420
+    },
+    {
+      "path": "EnygmaVerifierk4_raw.sol",
+      "sha256": "83bfbb952bd01b3175243c589f1f3b2bb1bd58ce24f2847ef934fd3aa70ede5f",
+      "bytes": 44273
+    },
+    {
+      "path": "keys/Enygmak5Pk.key",
+      "sha256": "a57947ef681925b697b477f87645839eaa06133102af13dd5d547733e88e76c5",
+      "bytes": 4875099
+    },
+    {
+      "path": "keys/Enygmak5Vk.key",
+      "sha256": "3f1f6c3be6c56d956b62a1c7819a412b95b939f5891cc62cb9e89dbd996cda5e",
+      "bytes": 1676
+    },
+    {
+      "path": "EnygmaVerifierk5_raw.sol",
+      "sha256": "816546d603ca439e90ba9163ed325307e76ddca4c33404c2be881eff4b87fcc9",
+      "bytes": 49113
+    },
+    {
+      "path": "keys/Enygmak6Pk.key",
+      "sha256": "b9b627cb3d41b651dd1b64e327de7d72d364fd5c55daf4dd3874b9b84b502227",
+      "bytes": 6555857
+    },
+    {
+      "path": "keys/Enygmak6Vk.key",
+      "sha256": "09d69d2c665d6544dc5f87e842bda823187e480912d0a7cb7226b8ecd7ee2b80",
+      "bytes": 1932
+    },
+    {
+      "path": "EnygmaVerifierk6_raw.sol",
+      "sha256": "b7dbdc8ebfa966c612927ac421981034ee744f73b8319fd68b509269e5da1165",
+      "bytes": 53957
+    }
+  ],
+  "verifier_constants": [
+    {
+      "k": 2,
+      "assignments": 63,
+      "matched": true
+    },
+    {
+      "k": 3,
+      "assignments": 79,
+      "matched": true
+    },
+    {
+      "k": 4,
+      "assignments": 95,
+      "matched": true
+    },
+    {
+      "k": 5,
+      "assignments": 111,
+      "matched": true
+    },
+    {
+      "k": 6,
+      "assignments": 127,
+      "matched": true
+    }
+  ],
+  "source_go_files": 82,
+  "limit": "Artifact consistency, not an independent replay of the trusted setup or production deployment attestation."
+}

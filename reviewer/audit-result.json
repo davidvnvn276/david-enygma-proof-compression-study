@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "original_manifest_files": 54,
+  "replayed_valid_transactions": 450,
+  "replayed_rejection_controls": 48,
+  "paired_gas_results_exactly_reproduced": 150,
+  "regenerated_proofs_in_native_check": 50,
+  "local_audit_mutations": [
+    {
+      "test": "receipt gas changed",
+      "rejected": true
+    },
+    {
+      "test": "public input changed",
+      "rejected": true
+    },
+    {
+      "test": "route relabelled",
+      "rejected": true
+    },
+    {
+      "test": "control incorrectly marked accepted",
+      "rejected": true
+    }
+  ],
+  "limit": "Saved-data bindings and a recorded local replay; not mainnet, ceremony replay, live transport or independent validation of every original receipt."
+}

@@ -1,0 +1,43 @@
+name: Reproduce Enygma study
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '24.22.1'
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e
+        with:
+          go-version: '1.26.2'
+          cache: false
+      - name: Check saved evidence
+        run: python3 verify_all.py
+      - name: Install the pinned Anvil binary
+        run: python3 reviewer/install_anvil.py --output tools/anvil
+      - name: Replay Solidity and regenerate native proofs
+        run: python3 reproduce.py --evm --native --anvil tools/anvil --go "$(command -v go)" --output runs/ci
+      - name: Generate variant proofs and verify them in Solidity
+        run: python3 supplemental/reproduce.py --anvil tools/anvil --go "$(command -v go)" --output runs/supplemental
+      - name: Retain reproduction logs and results
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: enygma-reproduction-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            runs/ci/reproduction-summary.json
+            runs/ci/*.log
+            runs/ci/evm-study/results/
+            runs/ci/regenerated-proofs.json
+            runs/supplemental/*.json
+            runs/supplemental/*.log
+          if-no-files-found: warn
+          retention-days: 30
+

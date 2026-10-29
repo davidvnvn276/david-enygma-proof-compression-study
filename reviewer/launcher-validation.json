@@ -1,0 +1,26 @@
+{
+  "scope": "Local reproduction; no live Rayls transactions or end-to-end payment execution.",
+  "steps": [
+    {
+      "name": "saved_audit",
+      "passed": true
+    },
+    {
+      "name": "fresh_evm_replay",
+      "passed": true,
+      "paired_gas_matches": 150,
+      "accepted_verification_transactions": 450,
+      "rejection_controls": 48,
+      "anvil_version": "anvil Version: 1.3.1-v1.3.1\nCommit SHA: 08d3a4ad4d78b62bcb897350803bf96fc2cf6cc9\nBuild Timestamp: 2025-08-12T07:39:41.778340577Z (1754984381)\nBuild Profile: maxperf"
+    },
+    {
+      "name": "native_regeneration",
+      "passed": true,
+      "recorded_proofs": 50,
+      "profiles": 5,
+      "go_version": "go version go1.26.2 linux/amd64",
+      "limit": "Not added to the original 150-pair statistics."
+    }
+  ],
+  "status": "passed"
+}

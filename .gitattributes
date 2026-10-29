@@ -1,0 +1,3 @@
+# Manifest-covered research artifacts must retain their exact stored bytes.
+# Preserve the original CRLF CSV records on every Git platform.
+* -text

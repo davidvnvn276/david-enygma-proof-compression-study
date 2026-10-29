@@ -1,0 +1,97 @@
+{
+  "repository_commit": "be20e7fb1fcbafccbc5450d0b5900e27c2e53788",
+  "ceremony_epoch": 2,
+  "release": 2,
+  "items": [
+    {
+      "path": "keys/Enygmak2Pk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak2Pk.key",
+      "bytes": 2454265,
+      "sha256": "bfa264c3c64c539c921d4e570602b206801392fb41b37eae765d9ec39cb4e094"
+    },
+    {
+      "path": "keys/Enygmak2Vk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak2Vk.key",
+      "bytes": 908,
+      "sha256": "4de7890f8ae8137b1d807b5db798cfc35f53b52cdc8e97a3a33b0a1f639fd2b4"
+    },
+    {
+      "path": "EnygmaVerifierk2_raw.sol",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/EnygmaVerifierk2_raw.sol",
+      "bytes": 34613,
+      "sha256": "7c9da5b9fefdace5990f6d9dcdcb220f2b6b7179a9dbd5e99edfa8c2c712d96d"
+    },
+    {
+      "path": "keys/Enygmak3Pk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak3Pk.key",
+      "bytes": 3610735,
+      "sha256": "415238e01804ebba7c0105724a8bdc3d65ef440c05e0fe36a93c34e36a668762"
+    },
+    {
+      "path": "keys/Enygmak3Vk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak3Vk.key",
+      "bytes": 1164,
+      "sha256": "4d73029be8bad788fdaf7dea34ef45e6526c066c93a3601ba76a0fe3198722f2"
+    },
+    {
+      "path": "EnygmaVerifierk3_raw.sol",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/EnygmaVerifierk3_raw.sol",
+      "bytes": 39439,
+      "sha256": "a3402cadb7ebcb7c94f0f6775a47385750f4bea78cba82e1d786538ec228e69a"
+    },
+    {
+      "path": "keys/Enygmak4Pk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak4Pk.key",
+      "bytes": 4242917,
+      "sha256": "d5dd52db63fd88d7b6d2d287faf4e67a4aab033bde220c2cc0e89a67b4bd736e"
+    },
+    {
+      "path": "keys/Enygmak4Vk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak4Vk.key",
+      "bytes": 1420,
+      "sha256": "7dd5c7a6674119305b68cdbf44fad449fab97e296f3083d3554aacf8cc1b18f2"
+    },
+    {
+      "path": "EnygmaVerifierk4_raw.sol",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/EnygmaVerifierk4_raw.sol",
+      "bytes": 44273,
+      "sha256": "83bfbb952bd01b3175243c589f1f3b2bb1bd58ce24f2847ef934fd3aa70ede5f"
+    },
+    {
+      "path": "keys/Enygmak5Pk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak5Pk.key",
+      "bytes": 4875099,
+      "sha256": "a57947ef681925b697b477f87645839eaa06133102af13dd5d547733e88e76c5"
+    },
+    {
+      "path": "keys/Enygmak5Vk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak5Vk.key",
+      "bytes": 1676,
+      "sha256": "3f1f6c3be6c56d956b62a1c7819a412b95b939f5891cc62cb9e89dbd996cda5e"
+    },
+    {
+      "path": "EnygmaVerifierk5_raw.sol",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/EnygmaVerifierk5_raw.sol",
+      "bytes": 49113,
+      "sha256": "816546d603ca439e90ba9163ed325307e76ddca4c33404c2be881eff4b87fcc9"
+    },
+    {
+      "path": "keys/Enygmak6Pk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak6Pk.key",
+      "bytes": 6555857,
+      "sha256": "b9b627cb3d41b651dd1b64e327de7d72d364fd5c55daf4dd3874b9b84b502227"
+    },
+    {
+      "path": "keys/Enygmak6Vk.key",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/keys/Enygmak6Vk.key",
+      "bytes": 1932,
+      "sha256": "09d69d2c665d6544dc5f87e842bda823187e480912d0a7cb7226b8ecd7ee2b80"
+    },
+    {
+      "path": "EnygmaVerifierk6_raw.sol",
+      "url": "https://media.githubusercontent.com/media/raylsnetwork/rayls-sovereign-gnark-api/be20e7fb1fcbafccbc5450d0b5900e27c2e53788/last_build/EnygmaVerifierk6_raw.sol",
+      "bytes": 53957,
+      "sha256": "b7dbdc8ebfa966c612927ac421981034ee744f73b8319fd68b509269e5da1165"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "status": "passed",
+  "source_files_checked": 82,
+  "files": [
+    {
+      "path": "ceremony/manifest.json",
+      "git_blob_sha": "7480d14be0b8134949e454ae67aa2e721684f9f2"
+    },
+    {
+      "path": "cmd/ceremony/main.go",
+      "git_blob_sha": "2159199c736c4b033ce62e6c3c20955fd36d0c90"
+    },
+    {
+      "path": "cmd/ceremony/main_test.go",
+      "git_blob_sha": "772cccf1e2441326a611a74608fb1b188d15bb6e"
+    },
+    {
+      "path": "cmd/server/main.go",
+      "git_blob_sha": "fc79eb2d14f3e11a809fe2e9664e37492ae6b594"
+    },
+    {
+      "path": "cmd/setup/generate_h_parameter/main.go",
+      "git_blob_sha": "f76ef64b2474167d9d3bf6f9574f2d800c9642e3"
+    },
+    {
+      "path": "cmd/setup/setup_keys_verifiers/setup_keys_verifiers.go",
+      "git_blob_sha": "734739534d28b9df5cfe8fe07c51705110bad23f"
+    },
+    {
+      "path": "cmd/setup/setup_keys_verifiers/setup_keys_verifiers_test.go",
+      "git_blob_sha": "f5be33be508121f2303d04b60998cf7bb3fe2270"
+    },
+    {
+      "path": "cmd/setup/setup_r1cs.go",
+      "git_blob_sha": "1a435f86352dfe75c09dc8d9975f08208b01dcea"
+    },
+    {
+      "path": "config/config.go",
+      "git_blob_sha": "7cd14efd6601baa1ec7e78180bf0f26e12897055"
+    },
+    {
+      "path": "go.mod",
+      "git_blob_sha": "6f066b1de828951d9a2033d3ce3034a91b1920d7"
+    },
+    {
+      "path": "go.sum",
+      "git_blob_sha": "ca970bca26554d0d0330ba1aee37eba9bc0196b2"
+    },
+    {
+      "path": "internal/ceremony/ceremony.go",
+      "git_blob_sha": "69585fac479a5deab36f3034889e6ec6583483d4"
+    },
+    {
+      "path": "internal/ceremony/ceremony_test.go",
+      "git_blob_sha": "ac46902ccd4274ca3a1668415b7ab83d91a0e0ce"
+    },
+    {
+      "path": "internal/ceremony/circuits.go",
+      "git_blob_sha": "877696780dee376112cd895edbb6f88d7a8e3013"
+    },
+    {
+      "path": "internal/ceremony/circuits_test.go",
+      "git_blob_sha": "1fc164ebd366ece1f78aff2ee8088c565b7fbbeb"
+    },
+    {
+      "path": "internal/ceremony/demo.go",
+      "git_blob_sha": "ab7e2a420698936a530e62763948dbfb2b1c919a"
+    },
+    {
+      "path": "internal/ceremony/files.go",
+      "git_blob_sha": "37b25d5133177f4fb0bbbecbe3d2c4a36596db7d"
+    },
+    {
+      "path": "internal/ceremony/initialize.go",
+      "git_blob_sha": "8146b40bf38d9dc2979fc9ef9e9662023204a495"
+    },
+    {
+      "path": "internal/ceremony/initialize_test.go",
+      "git_blob_sha": "57a6a2a8aa39ab35b70ff79825b7bcdbad7c994c"
+    },
+    {
+      "path": "internal/ceremony/jobs.go",
+      "git_blob_sha": "a04a5bed81b0c864a132ec9aa3f7cfdc620e51cc"
+    },
+    {
+      "path": "internal/ceremony/lagrange.go",
+      "git_blob_sha": "fc0a7d9694bf447881247f36de83976e982796de"
+    },
+    {
+      "path": "internal/ceremony/manifest.go",
+      "git_blob_sha": "41adc0f899d2af2f45e63eca3003fe56c9770974"
+    },
+    {
+      "path": "internal/ceremony/ptau.go",
+      "git_blob_sha": "4beefe87a161e50df75237bb4bf6dbc07d9292fc"
+    },
+    {
+      "path": "pkg/api/server.go",
+      "git_blob_sha": "6abb993448139cafc6a37172396891506c42ac2e"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/enygma-joinsplit-dvp/circuit-logic.go",
+      "git_blob_sha": "12ff9b6e147da037df16555218bdfb5d9237b9cb"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/enygma-joinsplit-dvp/circuit.go",
+      "git_blob_sha": "67c8d9560def858edc9d7be1201ce3d9b83bcd22"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/enygma-joinsplit-dvp/circuit_test.go",
+      "git_blob_sha": "490c61f15a6f779328c53fee1376f267f5a390ed"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/enygma-joinsplit-dvp/handler.go",
+      "git_blob_sha": "eadfaca0e66292c584bc7f63d91b4ca6c37ba954"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/erc1155-joinsplit-dvp/circuit-logic.go",
+      "git_blob_sha": "f9f186cc98937180994b30a1668ae2e94c8263e7"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/erc1155-joinsplit-dvp/circuit.go",
+      "git_blob_sha": "cafbc38d6570da185f7161ff797f1a0c542e0d22"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/erc1155-joinsplit-dvp/circuit_test.go",
+      "git_blob_sha": "88dc47668d0813aa96ed7f5ba89ce2a1ef416cd0"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/erc1155-joinsplit-dvp/handler.go",
+      "git_blob_sha": "7bf6d761ac5a2c371158e72924774791b32c1e38"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/erc721-ownership-dvp/circuit-logic.go",
+      "git_blob_sha": "fdb29ba4fea14e1116741314f70de5dab3108010"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/erc721-ownership-dvp/circuit.go",
+      "git_blob_sha": "95f7fa5b4f28d799dce4892dffffcb6bb764ada2"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/erc721-ownership-dvp/circuit_test.go",
+      "git_blob_sha": "bfa86afc704bcfbb875be60e8a18cbd1a2e309b1"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/erc721-ownership-dvp/handler.go",
+      "git_blob_sha": "8b8d8eff3130514ab8e61f19fd4ae98625eb4eea"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/internal/dvptest/dvptest.go",
+      "git_blob_sha": "d6f9ed11d716b605a8062b37a6ee7bb76245ea48"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-dvp/internal/dvptest/joinsplit.go",
+      "git_blob_sha": "206fb861b71a9493a9f9eab2e7765542b951cdf4"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/common/common-checks.go",
+      "git_blob_sha": "357f0942e75e9307f7d5ccfa94092dc87df3aaae"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/common/common-checks_test.go",
+      "git_blob_sha": "e7ca3b2e1a115c3a72548df8a9999b2498c62e80"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-deposit/circuit-k2.go",
+      "git_blob_sha": "88f0d55cb549e1e016ca25c4db5d3b84120f2cb8"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-deposit/circuit-k3.go",
+      "git_blob_sha": "363b1de59f356503c869b73f8ad40f0543ef876a"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-deposit/circuit-k4.go",
+      "git_blob_sha": "6de30be78e2e16f91eb7a1d9cab58062872bb9ca"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-deposit/circuit-k5.go",
+      "git_blob_sha": "208f0b54f436faa746f6bc369b50d87f5793db16"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-deposit/circuit-k6.go",
+      "git_blob_sha": "8b436dd9b76a7395f8f92f978047665e3ca7f0c1"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-deposit/circuit-logic.go",
+      "git_blob_sha": "30b48b86cf6ff34c06f308af70d45d458ce033ec"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-deposit/circuit_test.go",
+      "git_blob_sha": "b651227e63c80b909c9aaf3c34d737e51219ed51"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-deposit/handler.go",
+      "git_blob_sha": "576aa11c689ce2b9c04723e6019f1da5bb82f79c"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-transfer/circuit-k2.go",
+      "git_blob_sha": "2546b1f17807b5e3bcd272fa79f77a5e7d0a7608"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-transfer/circuit-k3.go",
+      "git_blob_sha": "f6a9ebffc7fc5f2f73cf0124d7fbfaf8e75cf89c"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-transfer/circuit-k4.go",
+      "git_blob_sha": "64fb98c28d3c0dc885da4265b2c0ce527acffb97"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-transfer/circuit-k5.go",
+      "git_blob_sha": "d049958a3ef8a2e71c52ce82eabff56b46a69de2"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-transfer/circuit-k6.go",
+      "git_blob_sha": "54b92f3c7a82a6eaf36b48e055c0052adcacbdc4"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-transfer/circuit-logic.go",
+      "git_blob_sha": "ba561d36c879b24afe200f774ccd7e2a6deb3d91"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-transfer/circuit_test.go",
+      "git_blob_sha": "e86511b80f26e506a0cc1de9f607c8b50882e8a7"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-transfer/handler.go",
+      "git_blob_sha": "82f82de98a263b06bd3d08076a3d745df1477506"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/circuit-k2.go",
+      "git_blob_sha": "fed0d9f7fb2775b6b89080589a12138885e42241"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/circuit-k3.go",
+      "git_blob_sha": "7efa59925cf8ce2e55b18efd2d2a22ac13cfd4be"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/circuit-k4.go",
+      "git_blob_sha": "961de2842a400c4370d4e9249fc6201195a8373b"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/circuit-k5.go",
+      "git_blob_sha": "87fc00bdecba4884a1806c6400a21688f9b62d35"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/circuit-k6.go",
+      "git_blob_sha": "10160334d256dc2069116439e3762203b62d340b"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/circuit-logic.go",
+      "git_blob_sha": "cf65c69c6c51047476fd4ebcf5967b079fd6efa2"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/circuit_test.go",
+      "git_blob_sha": "56af82146b1534aa05f9add34f7b9a59615b4a86"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/handler.go",
+      "git_blob_sha": "69e1f8a6937636e81ea32da61f187bb305d3867e"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/enygma-withdraw/handler_test.go",
+      "git_blob_sha": "daa3a6da6579cf7efa7871d604cd48817d9fd8a7"
+    },
+    {
+      "path": "pkg/circuits/enygma/enygma-payments/internal/paytest/paytest.go",
+      "git_blob_sha": "58e6b6dad31f89ee799b8988cc6a0143b2848476"
+    },
+    {
+      "path": "pkg/circuits/internal/circuittest/circuittest.go",
+      "git_blob_sha": "308791bf4001db1e661bc83854ba0f5c71bd1087"
+    },
+    {
+      "path": "pkg/logsafe/logsafe.go",
+      "git_blob_sha": "67b3f485e2eb0c593f696ff184d4c1ba25f796f4"
+    },
+    {
+      "path": "pkg/logsafe/logsafe_test.go",
+      "git_blob_sha": "dce49c8a6c77e4fc0b13a57e730b7f7d5329edc5"
+    },
+    {
+      "path": "poseidon/constants.go",
+      "git_blob_sha": "c3cd8606d7e7b51655aaf9de235c00ea8e013a3c"
+    },
+    {
+      "path": "poseidon/poseidon.go",
+      "git_blob_sha": "faff2fcb93ae338028454ca6fa8b3d5f6ab8c7af"
+    },
+    {
+      "path": "primitives/Amount.go",
+      "git_blob_sha": "c9007ec8f9177d7bf4487217191f28db261adfed"
+    },
+    {
+      "path": "primitives/Commitment.go",
+      "git_blob_sha": "e1dd1522dfb51783867b4d48bc17f82d8db71676"
+    },
+    {
+      "path": "primitives/DvpInputs.go",
+      "git_blob_sha": "3b4276e4770083e3f50a7ac939462ab6b8d735f9"
+    },
+    {
+      "path": "primitives/GroupMath.go",
+      "git_blob_sha": "cac5070b7af498e7ba6201531625a72e1d3524e3"
+    },
+    {
+      "path": "primitives/MerkleProof.go",
+      "git_blob_sha": "c35154347a69460d829f03a2ec691ae1f5f77fd5"
+    },
+    {
+      "path": "primitives/ModSubgroup.go",
+      "git_blob_sha": "08079213b9074f4a06954c519d19ed4e952b2d32"
+    },
+    {
+      "path": "primitives/ModSubgroup_test.go",
+      "git_blob_sha": "c518284d5eb1caae14b1bff8873094b4f9e5ded9"
+    },
+    {
+      "path": "primitives/Nullifier.go",
+      "git_blob_sha": "82f89fafe749b62f39cab8c6d4d8b9d9a8ee589f"
+    },
+    {
+      "path": "primitives/Publickey.go",
+      "git_blob_sha": "6b63d45994835e1954d0fe9a8ed6c183482092b4"
+    },
+    {
+      "path": "primitives/Utils.go",
+      "git_blob_sha": "b82f34b769fc7bc8612c20adbf32caea7d85bc4c"
+    },
+    {
+      "path": "primitives/primitives_test.go",
+      "git_blob_sha": "de2b082cebb221fa240da00c0391f9d36f6cc289"
+    }
+  ]
+}

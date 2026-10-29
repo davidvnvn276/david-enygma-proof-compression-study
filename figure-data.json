@@ -1,0 +1,439 @@
+{
+  "original": {
+    "scope": "Published Rayls Enygma verifier benchmark on a local Shanghai EVM. No mainnet fees, whole-payment gas, production latency, anonymity-strength or deployment claims.",
+    "circuit_source_commit": "be20e7fb1fcbafccbc5450d0b5900e27c2e53788",
+    "contract_source_commit": "ed8863885c8ed5d5d317d47a34c063907192687a",
+    "recorded_proofs": 150,
+    "additional_excluded_warmup_proofs": 30,
+    "fresh_proof_processes": 3,
+    "fresh_evm_processes": 3,
+    "verifier_deployments": 15,
+    "accepted_proof_transactions": 450,
+    "paired_compression_comparisons": 150,
+    "rejected_proof_controls": 48,
+    "control_transaction_reverts": 33,
+    "control_successful_receipts_returning_false": 15,
+    "compression_gas_increase_pairs": 150,
+    "compression_gas_decrease_pairs": 0,
+    "profiles": [
+      {
+        "k": 2,
+        "constraints": 15938,
+        "public_inputs": 18,
+        "uncompressed_proof_bytes": 256,
+        "compressed_proof_bytes": 128,
+        "uncompressed_calldata_bytes": 836,
+        "compressed_calldata_bytes": 708,
+        "calldata_reduction_pct": 15.311004784688995,
+        "gas": {
+          "direct_uncompressed": {
+            "n": 30,
+            "median": 332197.0,
+            "min": 332173,
+            "q1": 332197.0,
+            "q3": 332209.0,
+            "max": 332209
+          },
+          "compressed": {
+            "n": 30,
+            "median": 342100.0,
+            "min": 341824,
+            "q1": 341996.0,
+            "q3": 342192.0,
+            "max": 342284
+          },
+          "legacy_uncompressed": {
+            "n": 30,
+            "median": 334429.0,
+            "min": 334405,
+            "q1": 334429.0,
+            "q3": 334441.0,
+            "max": 334441
+          }
+        },
+        "paired_compression_gas_change": {
+          "n": 30,
+          "median": 9903.0,
+          "min": 9615,
+          "q1": 9799.0,
+          "q3": 9983.0,
+          "max": 10075
+        },
+        "paired_compression_gas_change_pct": {
+          "n": 30,
+          "median": 2.9810624418643155,
+          "min": 2.8942623468960806,
+          "q1": 2.9496491666390736,
+          "q3": 3.0052259571214437,
+          "max": 3.032838947973642
+        },
+        "paired_compression_vs_legacy_gas_change": {
+          "n": 30,
+          "median": 7671.0,
+          "min": 7383,
+          "q1": 7567.0,
+          "q3": 7751.0,
+          "max": 7843
+        },
+        "paired_compression_vs_legacy_gas_change_pct": {
+          "n": 30,
+          "median": 2.293760409533862,
+          "min": 2.207564263950891,
+          "q1": 2.2625814418686705,
+          "q3": 2.317744154617319,
+          "max": 2.345191356012786
+        },
+        "proof_generation_ms_context_only": {
+          "n": 30,
+          "median": 401.48802049999995,
+          "min": 335.986735,
+          "q1": 375.65373024999997,
+          "q3": 451.42753625,
+          "max": 1566.950429
+        }
+      },
+      {
+        "k": 3,
+        "constraints": 21190,
+        "public_inputs": 26,
+        "uncompressed_proof_bytes": 256,
+        "compressed_proof_bytes": 128,
+        "uncompressed_calldata_bytes": 1092,
+        "compressed_calldata_bytes": 964,
+        "calldata_reduction_pct": 11.72161172161172,
+        "gas": {
+          "direct_uncompressed": {
+            "n": 30,
+            "median": 387577.0,
+            "min": 387541,
+            "q1": 387568.0,
+            "q3": 387589.0,
+            "max": 387589
+          },
+          "compressed": {
+            "n": 30,
+            "median": 397388.0,
+            "min": 397284,
+            "q1": 397316.0,
+            "q3": 397468.0,
+            "max": 397572
+          },
+          "legacy_uncompressed": {
+            "n": 30,
+            "median": 389892.0,
+            "min": 389856,
+            "q1": 389883.0,
+            "q3": 389904.0,
+            "max": 389904
+          }
+        },
+        "paired_compression_gas_change": {
+          "n": 30,
+          "median": 9811.0,
+          "min": 9695,
+          "q1": 9754.0,
+          "q3": 9900.0,
+          "max": 9995
+        },
+        "paired_compression_gas_change_pct": {
+          "n": 30,
+          "median": 2.531407149232354,
+          "min": 2.5013609777367263,
+          "q1": 2.5167584152950604,
+          "q3": 2.554331139360695,
+          "max": 2.579081955199579
+        },
+        "paired_compression_vs_legacy_gas_change": {
+          "n": 30,
+          "median": 7496.0,
+          "min": 7380,
+          "q1": 7439.0,
+          "q3": 7585.0,
+          "max": 7680
+        },
+        "paired_compression_vs_legacy_gas_change_pct": {
+          "n": 30,
+          "median": 1.9226132771567173,
+          "min": 1.892773605810661,
+          "q1": 1.9080374708300814,
+          "q3": 1.9454105239399628,
+          "max": 1.9699581383895592
+        },
+        "proof_generation_ms_context_only": {
+          "n": 30,
+          "median": 999.2711465,
+          "min": 516.360975,
+          "q1": 610.5159040000001,
+          "q3": 1274.8450882500001,
+          "max": 2444.407581
+        }
+      },
+      {
+        "k": 4,
+        "constraints": 26442,
+        "public_inputs": 34,
+        "uncompressed_proof_bytes": 256,
+        "compressed_proof_bytes": 128,
+        "uncompressed_calldata_bytes": 1348,
+        "compressed_calldata_bytes": 1220,
+        "calldata_reduction_pct": 9.495548961424332,
+        "gas": {
+          "direct_uncompressed": {
+            "n": 30,
+            "median": 442975.0,
+            "min": 442951,
+            "q1": 442963.0,
+            "q3": 442975.0,
+            "max": 442987
+          },
+          "compressed": {
+            "n": 30,
+            "median": 452913.5,
+            "min": 452678,
+            "q1": 452802.0,
+            "q3": 453056.75,
+            "max": 453148
+          },
+          "legacy_uncompressed": {
+            "n": 30,
+            "median": 445361.0,
+            "min": 445337,
+            "q1": 445349.0,
+            "q3": 445361.0,
+            "max": 445373
+          }
+        },
+        "paired_compression_gas_change": {
+          "n": 30,
+          "median": 9944.5,
+          "min": 9691,
+          "q1": 9826.75,
+          "q3": 10081.75,
+          "max": 10185
+        },
+        "paired_compression_gas_change_pct": {
+          "n": 30,
+          "median": 2.2449346125170253,
+          "min": 2.187648847483109,
+          "q1": 2.218383047773318,
+          "q3": 2.2759185055590043,
+          "max": 2.299351395526819
+        },
+        "paired_compression_vs_legacy_gas_change": {
+          "n": 30,
+          "median": 7558.5,
+          "min": 7305,
+          "q1": 7440.75,
+          "q3": 7695.75,
+          "max": 7799
+        },
+        "paired_compression_vs_legacy_gas_change_pct": {
+          "n": 30,
+          "median": 1.6971623251360033,
+          "min": 1.640198215877478,
+          "q1": 1.6707456312005935,
+          "q3": 1.7279802227855605,
+          "max": 1.7512580360491043
+        },
+        "proof_generation_ms_context_only": {
+          "n": 30,
+          "median": 711.9988075,
+          "min": 468.090181,
+          "q1": 638.3097475,
+          "q3": 857.6897677500001,
+          "max": 1812.59134
+        }
+      },
+      {
+        "k": 5,
+        "constraints": 31694,
+        "public_inputs": 42,
+        "uncompressed_proof_bytes": 256,
+        "compressed_proof_bytes": 128,
+        "uncompressed_calldata_bytes": 1604,
+        "compressed_calldata_bytes": 1476,
+        "calldata_reduction_pct": 7.980049875311721,
+        "gas": {
+          "direct_uncompressed": {
+            "n": 30,
+            "median": 498449.0,
+            "min": 498413,
+            "q1": 498437.0,
+            "q3": 498461.0,
+            "max": 498461
+          },
+          "compressed": {
+            "n": 30,
+            "median": 508383.5,
+            "min": 508108,
+            "q1": 508290.0,
+            "q3": 508474.75,
+            "max": 508566
+          },
+          "legacy_uncompressed": {
+            "n": 30,
+            "median": 500907.0,
+            "min": 500871,
+            "q1": 500895.0,
+            "q3": 500919.0,
+            "max": 500919
+          }
+        },
+        "paired_compression_gas_change": {
+          "n": 30,
+          "median": 9934.0,
+          "min": 9647,
+          "q1": 9832.0,
+          "q3": 10023.0,
+          "max": 10141
+        },
+        "paired_compression_gas_change_pct": {
+          "n": 30,
+          "median": 1.9929582412533482,
+          "min": 1.9353570289350621,
+          "q1": 1.9724831490789902,
+          "q3": 2.010789209185874,
+          "max": 2.034609018407985
+        },
+        "paired_compression_vs_legacy_gas_change": {
+          "n": 30,
+          "median": 7476.0,
+          "min": 7189,
+          "q1": 7374.0,
+          "q3": 7565.0,
+          "max": 7683
+        },
+        "paired_compression_vs_legacy_gas_change_pct": {
+          "n": 30,
+          "median": 1.4924747413368435,
+          "min": 1.4351621719279963,
+          "q1": 1.472103118026853,
+          "q3": 1.510224207905869,
+          "max": 1.533891148232222
+        },
+        "proof_generation_ms_context_only": {
+          "n": 30,
+          "median": 740.362419,
+          "min": 584.03297,
+          "q1": 696.96627,
+          "q3": 821.1203955000001,
+          "max": 3903.963113
+        }
+      },
+      {
+        "k": 6,
+        "constraints": 36946,
+        "public_inputs": 50,
+        "uncompressed_proof_bytes": 256,
+        "compressed_proof_bytes": 128,
+        "uncompressed_calldata_bytes": 1860,
+        "compressed_calldata_bytes": 1732,
+        "calldata_reduction_pct": 6.881720430107527,
+        "gas": {
+          "direct_uncompressed": {
+            "n": 30,
+            "median": 553865.0,
+            "min": 553829,
+            "q1": 553853.0,
+            "q3": 553865.0,
+            "max": 553877
+          },
+          "compressed": {
+            "n": 30,
+            "median": 563741.0,
+            "min": 563546,
+            "q1": 563728.25,
+            "q3": 563832.75,
+            "max": 563925
+          },
+          "legacy_uncompressed": {
+            "n": 30,
+            "median": 556351.0,
+            "min": 556315,
+            "q1": 556339.0,
+            "q3": 556351.0,
+            "max": 556363
+          }
+        },
+        "paired_compression_gas_change": {
+          "n": 30,
+          "median": 9876.0,
+          "min": 9669,
+          "q1": 9863.0,
+          "q3": 9967.75,
+          "max": 10096
+        },
+        "paired_compression_gas_change_pct": {
+          "n": 30,
+          "median": 1.783125308275031,
+          "min": 1.7456944411845952,
+          "q1": 1.7807202682183951,
+          "q3": 1.7997103924687596,
+          "max": 1.8229453495573544
+        },
+        "paired_compression_vs_legacy_gas_change": {
+          "n": 30,
+          "median": 7390.0,
+          "min": 7183,
+          "q1": 7377.0,
+          "q3": 7481.75,
+          "max": 7610
+        },
+        "paired_compression_vs_legacy_gas_change_pct": {
+          "n": 30,
+          "median": 1.3283124681374912,
+          "min": 1.2910635682099636,
+          "q1": 1.3259328891389255,
+          "q3": 1.3448185368992647,
+          "max": 1.3679300396358178
+        },
+        "proof_generation_ms_context_only": {
+          "n": 30,
+          "median": 1432.139502,
+          "min": 997.147284,
+          "q1": 1279.508464,
+          "q3": 1873.5910197500002,
+          "max": 2898.256044
+        }
+      }
+    ]
+  },
+  "supplemental": {
+    "status": "passed",
+    "new_native_proofs": 45,
+    "fixture_variants": 15,
+    "valid_solidity_transactions": 135,
+    "rejected_solidity_controls": 60,
+    "reverted_control_receipts": 40,
+    "successful_control_receipts_returning_false": 20,
+    "rejected_native_constraint_controls": 10,
+    "paired_comparisons": 45,
+    "compressed_gas_increase_pairs": 45,
+    "gas_increase_min": 9615,
+    "gas_increase_max": 10175,
+    "traced_pairs": 15,
+    "extra_modexp_calls_per_traced_compressed_call": 5,
+    "extra_modexp_callee_gas_per_traced_call": 6701,
+    "traced_intrinsic_saving_min": 2024,
+    "traced_intrinsic_saving_max": 2060,
+    "limit": "Supplemental synthetic witnesses and standalone local verifiers; not full payment, live transport, production pricing or a privacy audit.",
+    "copied_record_mutations": [
+      {
+        "case": "fixture amount changed",
+        "rejected": true
+      },
+      {
+        "case": "receipt gas changed",
+        "rejected": true
+      },
+      {
+        "case": "control recipient changed",
+        "rejected": true
+      },
+      {
+        "case": "trace gas changed",
+        "rejected": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,1109 @@
+{
+  "summary": {
+    "status": "passed",
+    "new_native_proofs": 45,
+    "fixture_variants": 15,
+    "valid_solidity_transactions": 135,
+    "rejected_solidity_controls": 60,
+    "reverted_control_receipts": 40,
+    "successful_control_receipts_returning_false": 20,
+    "rejected_native_constraint_controls": 10,
+    "paired_comparisons": 45,
+    "compressed_gas_increase_pairs": 45,
+    "gas_increase_min": 9615,
+    "gas_increase_max": 10175,
+    "traced_pairs": 15,
+    "extra_modexp_calls_per_traced_compressed_call": 5,
+    "extra_modexp_callee_gas_per_traced_call": 6701,
+    "traced_intrinsic_saving_min": 2024,
+    "traced_intrinsic_saving_max": 2060,
+    "limit": "Supplemental synthetic witnesses and standalone local verifiers; not full payment, live transport, production pricing or a privacy audit.",
+    "copied_record_mutations": [
+      {
+        "case": "fixture amount changed",
+        "rejected": true
+      },
+      {
+        "case": "receipt gas changed",
+        "rejected": true
+      },
+      {
+        "case": "control recipient changed",
+        "rejected": true
+      },
+      {
+        "case": "trace gas changed",
+        "rejected": true
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "k": 2,
+      "case_id": "all_receivers",
+      "trial": 0,
+      "direct_gas": 332185,
+      "compressed_gas": 341996,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11847,
+      "total_gas_increase": 9811,
+      "paired_increase_pct": 2.9534747204118186,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.6484375
+    },
+    {
+      "k": 2,
+      "case_id": "all_receivers",
+      "trial": 1,
+      "direct_gas": 332197,
+      "compressed_gas": 342260,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2060,
+      "extra_execution_gas": 12123,
+      "total_gas_increase": 10063,
+      "paired_increase_pct": 3.0292266335939217,
+      "hypothetical_extra_uniform_data_charge_break_even": 78.6171875
+    },
+    {
+      "k": 2,
+      "case_id": "all_receivers",
+      "trial": 2,
+      "direct_gas": 332197,
+      "compressed_gas": 342088,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11939,
+      "total_gas_increase": 9891,
+      "paired_increase_pct": 2.977450127484595,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.2734375
+    },
+    {
+      "k": 2,
+      "case_id": "full_balance",
+      "trial": 0,
+      "direct_gas": 332185,
+      "compressed_gas": 342180,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 12031,
+      "total_gas_increase": 9995,
+      "paired_increase_pct": 3.008865541791472,
+      "hypothetical_extra_uniform_data_charge_break_even": 78.0859375
+    },
+    {
+      "k": 2,
+      "case_id": "full_balance",
+      "trial": 1,
+      "direct_gas": 332209,
+      "compressed_gas": 342180,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2060,
+      "extra_execution_gas": 12031,
+      "total_gas_increase": 9971,
+      "paired_increase_pct": 3.0014238024857844,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.8984375
+    },
+    {
+      "k": 2,
+      "case_id": "full_balance",
+      "trial": 2,
+      "direct_gas": 332197,
+      "compressed_gas": 341916,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11755,
+      "total_gas_increase": 9719,
+      "paired_increase_pct": 2.9256736213752683,
+      "hypothetical_extra_uniform_data_charge_break_even": 75.9296875
+    },
+    {
+      "k": 2,
+      "case_id": "moved_sender",
+      "trial": 0,
+      "direct_gas": 332197,
+      "compressed_gas": 341812,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11663,
+      "total_gas_increase": 9615,
+      "paired_increase_pct": 2.8943668967510243,
+      "hypothetical_extra_uniform_data_charge_break_even": 75.1171875
+    },
+    {
+      "k": 2,
+      "case_id": "moved_sender",
+      "trial": 1,
+      "direct_gas": 332185,
+      "compressed_gas": 341996,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11847,
+      "total_gas_increase": 9811,
+      "paired_increase_pct": 2.9534747204118186,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.6484375
+    },
+    {
+      "k": 2,
+      "case_id": "moved_sender",
+      "trial": 2,
+      "direct_gas": 332197,
+      "compressed_gas": 342064,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2072,
+      "extra_execution_gas": 11939,
+      "total_gas_increase": 9867,
+      "paired_increase_pct": 2.970225498725154,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.0859375
+    },
+    {
+      "k": 3,
+      "case_id": "all_receivers",
+      "trial": 0,
+      "direct_gas": 387649,
+      "compressed_gas": 397356,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11755,
+      "total_gas_increase": 9707,
+      "paired_increase_pct": 2.50406940299085,
+      "hypothetical_extra_uniform_data_charge_break_even": 75.8359375
+    },
+    {
+      "k": 3,
+      "case_id": "all_receivers",
+      "trial": 1,
+      "direct_gas": 387625,
+      "compressed_gas": 397540,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2024,
+      "extra_execution_gas": 11939,
+      "total_gas_increase": 9915,
+      "paired_increase_pct": 2.5578845533698806,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.4609375
+    },
+    {
+      "k": 3,
+      "case_id": "all_receivers",
+      "trial": 2,
+      "direct_gas": 387637,
+      "compressed_gas": 397332,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2060,
+      "extra_execution_gas": 11755,
+      "total_gas_increase": 9695,
+      "paired_increase_pct": 2.5010512412385815,
+      "hypothetical_extra_uniform_data_charge_break_even": 75.7421875
+    },
+    {
+      "k": 3,
+      "case_id": "full_balance",
+      "trial": 0,
+      "direct_gas": 387625,
+      "compressed_gas": 397344,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11755,
+      "total_gas_increase": 9719,
+      "paired_increase_pct": 2.507320219284102,
+      "hypothetical_extra_uniform_data_charge_break_even": 75.9296875
+    },
+    {
+      "k": 3,
+      "case_id": "full_balance",
+      "trial": 1,
+      "direct_gas": 387625,
+      "compressed_gas": 397528,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11939,
+      "total_gas_increase": 9903,
+      "paired_increase_pct": 2.5547887778136085,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.3671875
+    },
+    {
+      "k": 3,
+      "case_id": "full_balance",
+      "trial": 2,
+      "direct_gas": 387625,
+      "compressed_gas": 397332,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11755,
+      "total_gas_increase": 9707,
+      "paired_increase_pct": 2.50422444372783,
+      "hypothetical_extra_uniform_data_charge_break_even": 75.8359375
+    },
+    {
+      "k": 3,
+      "case_id": "moved_sender",
+      "trial": 0,
+      "direct_gas": 387637,
+      "compressed_gas": 397448,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11847,
+      "total_gas_increase": 9811,
+      "paired_increase_pct": 2.5309761452080166,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.6484375
+    },
+    {
+      "k": 3,
+      "case_id": "moved_sender",
+      "trial": 1,
+      "direct_gas": 387637,
+      "compressed_gas": 397436,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11847,
+      "total_gas_increase": 9799,
+      "paired_increase_pct": 2.5278804654870406,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.5546875
+    },
+    {
+      "k": 3,
+      "case_id": "moved_sender",
+      "trial": 2,
+      "direct_gas": 387601,
+      "compressed_gas": 397412,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11847,
+      "total_gas_increase": 9811,
+      "paired_increase_pct": 2.5312112197852947,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.6484375
+    },
+    {
+      "k": 4,
+      "case_id": "all_receivers",
+      "trial": 0,
+      "direct_gas": 443023,
+      "compressed_gas": 453081,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2060,
+      "extra_execution_gas": 12118,
+      "total_gas_increase": 10058,
+      "paired_increase_pct": 2.270311022226837,
+      "hypothetical_extra_uniform_data_charge_break_even": 78.578125
+    },
+    {
+      "k": 4,
+      "case_id": "all_receivers",
+      "trial": 1,
+      "direct_gas": 443023,
+      "compressed_gas": 452909,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11934,
+      "total_gas_increase": 9886,
+      "paired_increase_pct": 2.231486852827054,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.234375
+    },
+    {
+      "k": 4,
+      "case_id": "all_receivers",
+      "trial": 2,
+      "direct_gas": 443011,
+      "compressed_gas": 453002,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 12027,
+      "total_gas_increase": 9991,
+      "paired_increase_pct": 2.2552487410019166,
+      "hypothetical_extra_uniform_data_charge_break_even": 78.0546875
+    },
+    {
+      "k": 4,
+      "case_id": "full_balance",
+      "trial": 0,
+      "direct_gas": 442963,
+      "compressed_gas": 452781,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2024,
+      "extra_execution_gas": 11842,
+      "total_gas_increase": 9818,
+      "paired_increase_pct": 2.216437941769403,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.703125
+    },
+    {
+      "k": 4,
+      "case_id": "full_balance",
+      "trial": 1,
+      "direct_gas": 442963,
+      "compressed_gas": 452874,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2024,
+      "extra_execution_gas": 11935,
+      "total_gas_increase": 9911,
+      "paired_increase_pct": 2.2374329232915615,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.4296875
+    },
+    {
+      "k": 4,
+      "case_id": "full_balance",
+      "trial": 2,
+      "direct_gas": 442987,
+      "compressed_gas": 452872,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11933,
+      "total_gas_increase": 9885,
+      "paired_increase_pct": 2.231442457679345,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.2265625
+    },
+    {
+      "k": 4,
+      "case_id": "moved_sender",
+      "trial": 0,
+      "direct_gas": 442963,
+      "compressed_gas": 453057,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2024,
+      "extra_execution_gas": 12118,
+      "total_gas_increase": 10094,
+      "paired_increase_pct": 2.2787456288674224,
+      "hypothetical_extra_uniform_data_charge_break_even": 78.859375
+    },
+    {
+      "k": 4,
+      "case_id": "moved_sender",
+      "trial": 1,
+      "direct_gas": 442987,
+      "compressed_gas": 452874,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11935,
+      "total_gas_increase": 9887,
+      "paired_increase_pct": 2.231893938196832,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.2421875
+    },
+    {
+      "k": 4,
+      "case_id": "moved_sender",
+      "trial": 2,
+      "direct_gas": 442963,
+      "compressed_gas": 453124,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 12209,
+      "total_gas_increase": 10161,
+      "paired_increase_pct": 2.293871045662956,
+      "hypothetical_extra_uniform_data_charge_break_even": 79.3828125
+    },
+    {
+      "k": 5,
+      "case_id": "all_receivers",
+      "trial": 0,
+      "direct_gas": 498461,
+      "compressed_gas": 508235,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2024,
+      "extra_execution_gas": 11798,
+      "total_gas_increase": 9774,
+      "paired_increase_pct": 1.960835451519778,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.359375
+    },
+    {
+      "k": 5,
+      "case_id": "all_receivers",
+      "trial": 1,
+      "direct_gas": 498497,
+      "compressed_gas": 508247,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11798,
+      "total_gas_increase": 9750,
+      "paired_increase_pct": 1.9558793733964297,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.171875
+    },
+    {
+      "k": 5,
+      "case_id": "all_receivers",
+      "trial": 2,
+      "direct_gas": 498461,
+      "compressed_gas": 508590,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 12165,
+      "total_gas_increase": 10129,
+      "paired_increase_pct": 2.0320546642565818,
+      "hypothetical_extra_uniform_data_charge_break_even": 79.1328125
+    },
+    {
+      "k": 5,
+      "case_id": "full_balance",
+      "trial": 0,
+      "direct_gas": 498449,
+      "compressed_gas": 508487,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 12074,
+      "total_gas_increase": 10038,
+      "paired_increase_pct": 2.0138469532489784,
+      "hypothetical_extra_uniform_data_charge_break_even": 78.421875
+    },
+    {
+      "k": 5,
+      "case_id": "full_balance",
+      "trial": 1,
+      "direct_gas": 498437,
+      "compressed_gas": 508211,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2024,
+      "extra_execution_gas": 11798,
+      "total_gas_increase": 9774,
+      "paired_increase_pct": 1.9609298667635027,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.359375
+    },
+    {
+      "k": 5,
+      "case_id": "full_balance",
+      "trial": 2,
+      "direct_gas": 498449,
+      "compressed_gas": 508396,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11983,
+      "total_gas_increase": 9947,
+      "paired_increase_pct": 1.9955903211762889,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.7109375
+    },
+    {
+      "k": 5,
+      "case_id": "moved_sender",
+      "trial": 0,
+      "direct_gas": 498437,
+      "compressed_gas": 508384,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11983,
+      "total_gas_increase": 9947,
+      "paired_increase_pct": 1.9956383655306489,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.7109375
+    },
+    {
+      "k": 5,
+      "case_id": "moved_sender",
+      "trial": 1,
+      "direct_gas": 498413,
+      "compressed_gas": 508187,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2024,
+      "extra_execution_gas": 11798,
+      "total_gas_increase": 9774,
+      "paired_increase_pct": 1.9610242910999514,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.359375
+    },
+    {
+      "k": 5,
+      "case_id": "moved_sender",
+      "trial": 2,
+      "direct_gas": 498449,
+      "compressed_gas": 508199,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11798,
+      "total_gas_increase": 9750,
+      "paired_increase_pct": 1.9560677220738731,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.171875
+    },
+    {
+      "k": 6,
+      "case_id": "all_receivers",
+      "trial": 0,
+      "direct_gas": 553913,
+      "compressed_gas": 563685,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11820,
+      "total_gas_increase": 9772,
+      "paired_increase_pct": 1.7641759626511744,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.34375
+    },
+    {
+      "k": 6,
+      "case_id": "all_receivers",
+      "trial": 1,
+      "direct_gas": 553877,
+      "compressed_gas": 564052,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2012,
+      "extra_execution_gas": 12187,
+      "total_gas_increase": 10175,
+      "paired_increase_pct": 1.8370504642727536,
+      "hypothetical_extra_uniform_data_charge_break_even": 79.4921875
+    },
+    {
+      "k": 6,
+      "case_id": "all_receivers",
+      "trial": 2,
+      "direct_gas": 553877,
+      "compressed_gas": 563765,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2024,
+      "extra_execution_gas": 11912,
+      "total_gas_increase": 9888,
+      "paired_increase_pct": 1.7852339057227506,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.25
+    },
+    {
+      "k": 6,
+      "case_id": "full_balance",
+      "trial": 0,
+      "direct_gas": 553877,
+      "compressed_gas": 563844,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 12003,
+      "total_gas_increase": 9967,
+      "paired_increase_pct": 1.7994970002365147,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.8671875
+    },
+    {
+      "k": 6,
+      "case_id": "full_balance",
+      "trial": 1,
+      "direct_gas": 553901,
+      "compressed_gas": 563858,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 12005,
+      "total_gas_increase": 9957,
+      "paired_increase_pct": 1.797613652981309,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.7890625
+    },
+    {
+      "k": 6,
+      "case_id": "full_balance",
+      "trial": 2,
+      "direct_gas": 553901,
+      "compressed_gas": 563673,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 11820,
+      "total_gas_increase": 9772,
+      "paired_increase_pct": 1.7642141826788542,
+      "hypothetical_extra_uniform_data_charge_break_even": 76.34375
+    },
+    {
+      "k": 6,
+      "case_id": "moved_sender",
+      "trial": 0,
+      "direct_gas": 553889,
+      "compressed_gas": 563937,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2048,
+      "extra_execution_gas": 12096,
+      "total_gas_increase": 10048,
+      "paired_increase_pct": 1.8140818828321197,
+      "hypothetical_extra_uniform_data_charge_break_even": 78.5
+    },
+    {
+      "k": 6,
+      "case_id": "moved_sender",
+      "trial": 1,
+      "direct_gas": 553865,
+      "compressed_gas": 563741,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 11912,
+      "total_gas_increase": 9876,
+      "paired_increase_pct": 1.7831059915322325,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.15625
+    },
+    {
+      "k": 6,
+      "case_id": "moved_sender",
+      "trial": 2,
+      "direct_gas": 553877,
+      "compressed_gas": 563845,
+      "saved_calldata_bytes": 128,
+      "saved_intrinsic_gas": 2036,
+      "extra_execution_gas": 12004,
+      "total_gas_increase": 9968,
+      "paired_increase_pct": 1.799677545736689,
+      "hypothetical_extra_uniform_data_charge_break_even": 77.875
+    }
+  ],
+  "traces": [
+    {
+      "k": 2,
+      "case_id": "moved_sender",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 18,
+        "7": 18,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 2700,
+        "7": 108000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 2,
+      "case_id": "moved_sender",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 18,
+        "7": 18,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 2700,
+        "7": 108000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 2,
+      "case_id": "full_balance",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 18,
+        "7": 18,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 2700,
+        "7": 108000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 2,
+      "case_id": "full_balance",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 18,
+        "7": 18,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 2700,
+        "7": 108000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 2,
+      "case_id": "all_receivers",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 18,
+        "7": 18,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 2700,
+        "7": 108000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 2,
+      "case_id": "all_receivers",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 18,
+        "7": 18,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 2700,
+        "7": 108000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 3,
+      "case_id": "moved_sender",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 26,
+        "7": 26,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 3900,
+        "7": 156000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 3,
+      "case_id": "moved_sender",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 26,
+        "7": 26,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 3900,
+        "7": 156000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 3,
+      "case_id": "full_balance",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 26,
+        "7": 26,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 3900,
+        "7": 156000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 3,
+      "case_id": "full_balance",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 26,
+        "7": 26,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 3900,
+        "7": 156000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 3,
+      "case_id": "all_receivers",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 26,
+        "7": 26,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 3900,
+        "7": 156000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 3,
+      "case_id": "all_receivers",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 26,
+        "7": 26,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 3900,
+        "7": 156000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 4,
+      "case_id": "moved_sender",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 34,
+        "7": 34,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 5100,
+        "7": 204000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 4,
+      "case_id": "moved_sender",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 34,
+        "7": 34,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 5100,
+        "7": 204000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 4,
+      "case_id": "full_balance",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 34,
+        "7": 34,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 5100,
+        "7": 204000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 4,
+      "case_id": "full_balance",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 34,
+        "7": 34,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 5100,
+        "7": 204000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 4,
+      "case_id": "all_receivers",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 34,
+        "7": 34,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 5100,
+        "7": 204000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 4,
+      "case_id": "all_receivers",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 34,
+        "7": 34,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 5100,
+        "7": 204000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 5,
+      "case_id": "moved_sender",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 42,
+        "7": 42,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 6300,
+        "7": 252000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 5,
+      "case_id": "moved_sender",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 42,
+        "7": 42,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 6300,
+        "7": 252000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 5,
+      "case_id": "full_balance",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 42,
+        "7": 42,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 6300,
+        "7": 252000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 5,
+      "case_id": "full_balance",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 42,
+        "7": 42,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 6300,
+        "7": 252000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 5,
+      "case_id": "all_receivers",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 42,
+        "7": 42,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 6300,
+        "7": 252000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 5,
+      "case_id": "all_receivers",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 42,
+        "7": 42,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 6300,
+        "7": 252000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 6,
+      "case_id": "moved_sender",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 50,
+        "7": 50,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 7500,
+        "7": 300000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 6,
+      "case_id": "moved_sender",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 50,
+        "7": 50,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 7500,
+        "7": 300000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 6,
+      "case_id": "full_balance",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 50,
+        "7": 50,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 7500,
+        "7": 300000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 6,
+      "case_id": "full_balance",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 50,
+        "7": 50,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 7500,
+        "7": 300000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 6,
+      "case_id": "all_receivers",
+      "mode": "direct_uncompressed",
+      "precompile_calls": {
+        "6": 50,
+        "7": 50,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "6": 7500,
+        "7": 300000,
+        "8": 181000
+      }
+    },
+    {
+      "k": 6,
+      "case_id": "all_receivers",
+      "mode": "compressed",
+      "precompile_calls": {
+        "5": 5,
+        "6": 50,
+        "7": 50,
+        "8": 1
+      },
+      "precompile_callee_gas": {
+        "5": 6701,
+        "6": 7500,
+        "7": 300000,
+        "8": 181000
+      }
+    }
+  ]
+}

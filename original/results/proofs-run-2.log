@@ -1,0 +1,9 @@
+=== RUN   TestCostStudy
+    cost_test.go:189: run=run-2 k=2 constraints=15938 public_inputs=18 recorded_proofs=10
+    cost_test.go:189: run=run-2 k=3 constraints=21190 public_inputs=26 recorded_proofs=10
+    cost_test.go:189: run=run-2 k=4 constraints=26442 public_inputs=34 recorded_proofs=10
+    cost_test.go:189: run=run-2 k=5 constraints=31694 public_inputs=42 recorded_proofs=10
+    cost_test.go:189: run=run-2 k=6 constraints=36946 public_inputs=50 recorded_proofs=10
+--- PASS: TestCostStudy (78.98s)
+PASS
+ok  	github.com/raylsnetwork/rayls-sovereign-gnark-api/pkg/circuits/enygma/enygma-payments/david-cost-study	79.097s

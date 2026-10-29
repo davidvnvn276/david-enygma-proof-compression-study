@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "figure_checks": [
+    {
+      "file": "01-enygma-banner.png",
+      "pixels": [
+        3200,
+        1280
+      ],
+      "original_logo_unchanged": true
+    },
+    {
+      "file": "02-proof-versus-calldata.png",
+      "pixels": [
+        3200,
+        1800
+      ],
+      "original_logo_unchanged": true
+    },
+    {
+      "file": "03-paired-gas-reconciliation.png",
+      "pixels": [
+        3200,
+        1800
+      ],
+      "original_logo_unchanged": true
+    },
+    {
+      "file": "04-proof-acceptance-versus-receipt.png",
+      "pixels": [
+        3200,
+        1800
+      ],
+      "original_logo_unchanged": true
+    },
+    {
+      "file": "05-fresh-proof-trace-evidence.png",
+      "pixels": [
+        3200,
+        1800
+      ],
+      "original_logo_unchanged": true
+    }
+  ],
+  "article_words": 1853,
+  "all_original_files_preserved": true,
+  "review_audit": {
+    "status": "passed",
+    "original_manifest_files": 54,
+    "replayed_valid_transactions": 450,
+    "replayed_rejection_controls": 48,
+    "paired_gas_results_exactly_reproduced": 150,
+    "regenerated_proofs_in_native_check": 50,
+    "local_audit_mutations": [
+      {
+        "test": "receipt gas changed",
+        "rejected": true
+      },
+      {
+        "test": "public input changed",
+        "rejected": true
+      },
+      {
+        "test": "route relabelled",
+        "rejected": true
+      },
+      {
+        "test": "control incorrectly marked accepted",
+        "rejected": true
+      }
+    ],
+    "limit": "Saved-data bindings and a recorded local replay; not mainnet, ceremony replay, live transport or independent validation of every original receipt."
+  },
+  "original_review_date": "2026-10-28",
+  "public_ci_executed_at_original_review": false,
+  "public_ci_results": "Inspect the GitHub Actions run for the selected repository revision.",
+  "content_check_command": "python3 check_article_figures.py",
+  "supplemental_review_date": "2026-10-29",
+  "supplemental_saved_audit": {
+    "status": "passed",
+    "new_native_proofs": 45,
+    "fixture_variants": 15,
+    "valid_solidity_transactions": 135,
+    "rejected_solidity_controls": 60,
+    "reverted_control_receipts": 40,
+    "successful_control_receipts_returning_false": 20,
+    "rejected_native_constraint_controls": 10,
+    "paired_comparisons": 45,
+    "compressed_gas_increase_pairs": 45,
+    "gas_increase_min": 9615,
+    "gas_increase_max": 10175,
+    "traced_pairs": 15,
+    "extra_modexp_calls_per_traced_compressed_call": 5,
+    "extra_modexp_callee_gas_per_traced_call": 6701,
+    "traced_intrinsic_saving_min": 2024,
+    "traced_intrinsic_saving_max": 2060,
+    "limit": "Supplemental synthetic witnesses and standalone local verifiers; not full payment, live transport, production pricing or a privacy audit.",
+    "copied_record_mutations": [
+      {
+        "case": "fixture amount changed",
+        "rejected": true
+      },
+      {
+        "case": "receipt gas changed",
+        "rejected": true
+      },
+      {
+        "case": "control recipient changed",
+        "rejected": true
+      },
+      {
+        "case": "trace gas changed",
+        "rejected": true
+      }
+    ]
+  }
+}

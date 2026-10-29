@@ -1,0 +1,10 @@
+{
+  "name": "david-enygma-verification-cost-research",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "ethers": "6.15.0",
+    "solc": "0.8.30"
+  }
+}

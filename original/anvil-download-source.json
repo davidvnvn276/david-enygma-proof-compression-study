@@ -1,0 +1,6 @@
+{
+  "tag": "v1.3.1",
+  "asset": "foundry_v1.3.1_linux_amd64.tar.gz",
+  "url": "https://github.com/foundry-rs/foundry/releases/download/v1.3.1/foundry_v1.3.1_linux_amd64.tar.gz",
+  "expected_digest": "sha256:baad3e1b06d6f310d210c93e95258a03d923fe610f8d0742138f2245f94abd7c"
+}

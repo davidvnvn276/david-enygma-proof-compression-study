@@ -1,0 +1,9 @@
+=== RUN   TestSupplementalFixtures
+    fixtures_test.go:133: k=2: three fixture variants, nine native proofs, two rejected constraint controls
+    fixtures_test.go:133: k=3: three fixture variants, nine native proofs, two rejected constraint controls
+    fixtures_test.go:133: k=4: three fixture variants, nine native proofs, two rejected constraint controls
+    fixtures_test.go:133: k=5: three fixture variants, nine native proofs, two rejected constraint controls
+    fixtures_test.go:133: k=6: three fixture variants, nine native proofs, two rejected constraint controls
+--- PASS: TestSupplementalFixtures (20.45s)
+PASS
+ok  	github.com/raylsnetwork/rayls-sovereign-gnark-api/pkg/circuits/enygma/enygma-payments/david-cost-study	20.492s

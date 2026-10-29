@@ -1,0 +1,35 @@
+{
+  "scope": "Constant assignments match; source text differs, including the legacy ABI wrapper. Not deployment attestation.",
+  "results": [
+    {
+      "k": 2,
+      "constant_assignments": 63,
+      "raw_and_contract_verifier_constants_match": true,
+      "constants_sha256": "1e8934d87f27bf128085c422e3c41e600e967ea7ead9d2dfd05a2b66654dc989"
+    },
+    {
+      "k": 3,
+      "constant_assignments": 79,
+      "raw_and_contract_verifier_constants_match": true,
+      "constants_sha256": "d102baf7149226f132993c8779a780da22ac9f445de3a4a713edc05c5a7b8305"
+    },
+    {
+      "k": 4,
+      "constant_assignments": 95,
+      "raw_and_contract_verifier_constants_match": true,
+      "constants_sha256": "b9c2ad67ef62894ab759ce7b7a75ec7c3c8b1980f579601ab8e5538e37ac9213"
+    },
+    {
+      "k": 5,
+      "constant_assignments": 111,
+      "raw_and_contract_verifier_constants_match": true,
+      "constants_sha256": "5d64fec3eeb079a886f2658c023498a21e97a3a9c6fe77462db782e7593c5bbc"
+    },
+    {
+      "k": 6,
+      "constant_assignments": 127,
+      "raw_and_contract_verifier_constants_match": true,
+      "constants_sha256": "70faf2d30fe31508ce3dafbb9876276ad43beb5b545c9d383b4d7ebad5226d0e"
+    }
+  ]
+}

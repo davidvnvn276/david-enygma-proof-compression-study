@@ -1,0 +1,84 @@
+{
+  "scope": "Published Rayls Enygma verifier benchmark on a local Shanghai EVM. No mainnet fees, whole-payment gas, production latency, anonymity-strength or deployment claims.",
+  "circuit_source_commit": "be20e7fb1fcbafccbc5450d0b5900e27c2e53788",
+  "contract_source_commit": "ed8863885c8ed5d5d317d47a34c063907192687a",
+  "recorded_proofs": 150,
+  "additional_excluded_warmup_proofs": 30,
+  "fresh_proof_processes": 3,
+  "fresh_evm_processes": 3,
+  "verifier_deployments": 15,
+  "accepted_proof_transactions": 450,
+  "paired_compression_comparisons": 150,
+  "rejected_proof_controls": 48,
+  "control_transaction_reverts": 33,
+  "control_successful_receipts_returning_false": 15,
+  "compression_gas_increase_pairs": 150,
+  "compression_gas_decrease_pairs": 0
+}
+[
+  {
+    "k": 2,
+    "constraints": 15938,
+    "public_inputs": 18,
+    "uncompressed_calldata_bytes": 836,
+    "compressed_calldata_bytes": 708,
+    "calldata_reduction_pct": 15.311004784688995,
+    "direct_uncompressed_median_gas": 332197.0,
+    "compressed_median_gas": 342100.0,
+    "legacy_uncompressed_median_gas": 334429.0,
+    "paired_compression_gas_change_median": 9903.0,
+    "paired_compression_gas_change_pct_median": 2.9810624418643155
+  },
+  {
+    "k": 3,
+    "constraints": 21190,
+    "public_inputs": 26,
+    "uncompressed_calldata_bytes": 1092,
+    "compressed_calldata_bytes": 964,
+    "calldata_reduction_pct": 11.72161172161172,
+    "direct_uncompressed_median_gas": 387577.0,
+    "compressed_median_gas": 397388.0,
+    "legacy_uncompressed_median_gas": 389892.0,
+    "paired_compression_gas_change_median": 9811.0,
+    "paired_compression_gas_change_pct_median": 2.531407149232354
+  },
+  {
+    "k": 4,
+    "constraints": 26442,
+    "public_inputs": 34,
+    "uncompressed_calldata_bytes": 1348,
+    "compressed_calldata_bytes": 1220,
+    "calldata_reduction_pct": 9.495548961424332,
+    "direct_uncompressed_median_gas": 442975.0,
+    "compressed_median_gas": 452913.5,
+    "legacy_uncompressed_median_gas": 445361.0,
+    "paired_compression_gas_change_median": 9944.5,
+    "paired_compression_gas_change_pct_median": 2.2449346125170253
+  },
+  {
+    "k": 5,
+    "constraints": 31694,
+    "public_inputs": 42,
+    "uncompressed_calldata_bytes": 1604,
+    "compressed_calldata_bytes": 1476,
+    "calldata_reduction_pct": 7.980049875311721,
+    "direct_uncompressed_median_gas": 498449.0,
+    "compressed_median_gas": 508383.5,
+    "legacy_uncompressed_median_gas": 500907.0,
+    "paired_compression_gas_change_median": 9934.0,
+    "paired_compression_gas_change_pct_median": 1.9929582412533482
+  },
+  {
+    "k": 6,
+    "constraints": 36946,
+    "public_inputs": 50,
+    "uncompressed_calldata_bytes": 1860,
+    "compressed_calldata_bytes": 1732,
+    "calldata_reduction_pct": 6.881720430107527,
+    "direct_uncompressed_median_gas": 553865.0,
+    "compressed_median_gas": 563741.0,
+    "legacy_uncompressed_median_gas": 556351.0,
+    "paired_compression_gas_change_median": 9876.0,
+    "paired_compression_gas_change_pct_median": 1.783125308275031
+  }
+]

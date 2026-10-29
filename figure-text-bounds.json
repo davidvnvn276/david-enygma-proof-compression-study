@@ -1,0 +1,1000 @@
+[
+  {
+    "file": "01-enygma-banner.svg",
+    "text_bounds": [
+      {
+        "text": "RAYLS ENYGMA - A CONTROLLED VERIFIER BENCHMARK",
+        "x": 62,
+        "width": 526.125,
+        "baseline": 56,
+        "size": 19
+      },
+      {
+        "text": "Does a smaller proof",
+        "x": 58,
+        "width": 748.59375,
+        "baseline": 136,
+        "size": 64
+      },
+      {
+        "text": "mean lower gas?",
+        "x": 58,
+        "width": 683.625,
+        "baseline": 215,
+        "size": 72
+      },
+      {
+        "text": "PROOF REPRESENTATION",
+        "x": 91,
+        "width": 228.75,
+        "baseline": 303,
+        "size": 19
+      },
+      {
+        "text": "256",
+        "x": 86,
+        "width": 204.5625,
+        "baseline": 406,
+        "size": 98
+      },
+      {
+        "text": "to",
+        "x": 338,
+        "width": 38.15625,
+        "baseline": 398,
+        "size": 38
+      },
+      {
+        "text": "128",
+        "x": 413,
+        "width": 204.5625,
+        "baseline": 406,
+        "size": 98
+      },
+      {
+        "text": "bytes",
+        "x": 92,
+        "width": 79.890625,
+        "baseline": 460,
+        "size": 29
+      },
+      {
+        "text": "50% smaller proof component",
+        "x": 92,
+        "width": 378.125,
+        "baseline": 505,
+        "size": 25
+      },
+      {
+        "text": "LOCAL GAS RESULT",
+        "x": 788,
+        "width": 183.0,
+        "baseline": 300,
+        "size": 19
+      },
+      {
+        "text": "150 of 150",
+        "x": 784,
+        "width": 437.546875,
+        "baseline": 383,
+        "size": 73
+      },
+      {
+        "text": "paired compressed calls used more gas.",
+        "x": 788,
+        "width": 584.09375,
+        "baseline": 432,
+        "size": 29
+      },
+      {
+        "text": "Complete calldata fell by 6.88% to 15.31%.",
+        "x": 788,
+        "width": 544.015625,
+        "baseline": 479,
+        "size": 25
+      },
+      {
+        "text": "Pinned Rayls verifiers - Local Shanghai EVM - Verification only, not a complete Enygma payment.",
+        "x": 84,
+        "width": 971.515625,
+        "baseline": 595,
+        "size": 20
+      }
+    ]
+  },
+  {
+    "file": "02-proof-versus-calldata.svg",
+    "text_bounds": [
+      {
+        "text": "PROOF BYTES AND COMPLETE CALLDATA",
+        "x": 62,
+        "width": 377.4375,
+        "baseline": 55,
+        "size": 19
+      },
+      {
+        "text": "Public inputs stay in the call.",
+        "x": 58,
+        "width": 916.328125,
+        "baseline": 122,
+        "size": 56
+      },
+      {
+        "text": "Each profile saves 128 bytes. The public-input component grows with k.",
+        "x": 62,
+        "width": 937.59375,
+        "baseline": 166,
+        "size": 26
+      },
+      {
+        "text": "PROFILE",
+        "x": 88,
+        "width": 80.0625,
+        "baseline": 240,
+        "size": 19
+      },
+      {
+        "text": "SAME BYTE SCALE FOR ALL BARS",
+        "x": 288,
+        "width": 320.25,
+        "baseline": 240,
+        "size": 19
+      },
+      {
+        "text": "REDUCTION",
+        "x": 1404.0625,
+        "width": 102.9375,
+        "baseline": 240,
+        "size": 19
+      },
+      {
+        "text": "k=2",
+        "x": 88,
+        "width": 61.578125,
+        "baseline": 306,
+        "size": 28
+      },
+      {
+        "text": "18 public inputs",
+        "x": 88,
+        "width": 152.265625,
+        "baseline": 335,
+        "size": 19
+      },
+      {
+        "text": "836 B",
+        "x": 715.505376344086,
+        "width": 60.234375,
+        "baseline": 304,
+        "size": 20
+      },
+      {
+        "text": "708 B",
+        "x": 652.1935483870968,
+        "width": 60.234375,
+        "baseline": 334,
+        "size": 20
+      },
+      {
+        "text": "15.31%",
+        "x": 1390.359375,
+        "width": 116.640625,
+        "baseline": 320,
+        "size": 28
+      },
+      {
+        "text": "k=3",
+        "x": 88,
+        "width": 61.578125,
+        "baseline": 393,
+        "size": 28
+      },
+      {
+        "text": "26 public inputs",
+        "x": 88,
+        "width": 152.265625,
+        "baseline": 422,
+        "size": 19
+      },
+      {
+        "text": "1,092 B",
+        "x": 842.1290322580645,
+        "width": 84.328125,
+        "baseline": 391,
+        "size": 20
+      },
+      {
+        "text": "964 B",
+        "x": 778.8172043010752,
+        "width": 60.234375,
+        "baseline": 421,
+        "size": 20
+      },
+      {
+        "text": "11.72%",
+        "x": 1390.359375,
+        "width": 116.640625,
+        "baseline": 407,
+        "size": 28
+      },
+      {
+        "text": "k=4",
+        "x": 88,
+        "width": 61.578125,
+        "baseline": 480,
+        "size": 28
+      },
+      {
+        "text": "34 public inputs",
+        "x": 88,
+        "width": 152.265625,
+        "baseline": 509,
+        "size": 19
+      },
+      {
+        "text": "1,348 B",
+        "x": 968.752688172043,
+        "width": 84.328125,
+        "baseline": 478,
+        "size": 20
+      },
+      {
+        "text": "1,220 B",
+        "x": 905.4408602150538,
+        "width": 84.328125,
+        "baseline": 508,
+        "size": 20
+      },
+      {
+        "text": "9.50%",
+        "x": 1409.84375,
+        "width": 97.15625,
+        "baseline": 494,
+        "size": 28
+      },
+      {
+        "text": "k=5",
+        "x": 88,
+        "width": 61.578125,
+        "baseline": 567,
+        "size": 28
+      },
+      {
+        "text": "42 public inputs",
+        "x": 88,
+        "width": 152.265625,
+        "baseline": 596,
+        "size": 19
+      },
+      {
+        "text": "1,604 B",
+        "x": 1095.3763440860216,
+        "width": 84.328125,
+        "baseline": 565,
+        "size": 20
+      },
+      {
+        "text": "1,476 B",
+        "x": 1032.0645161290322,
+        "width": 84.328125,
+        "baseline": 595,
+        "size": 20
+      },
+      {
+        "text": "7.98%",
+        "x": 1409.84375,
+        "width": 97.15625,
+        "baseline": 581,
+        "size": 28
+      },
+      {
+        "text": "k=6",
+        "x": 88,
+        "width": 61.578125,
+        "baseline": 654,
+        "size": 28
+      },
+      {
+        "text": "50 public inputs",
+        "x": 88,
+        "width": 152.265625,
+        "baseline": 683,
+        "size": 19
+      },
+      {
+        "text": "1,860 B",
+        "x": 1222.0,
+        "width": 84.328125,
+        "baseline": 652,
+        "size": 20
+      },
+      {
+        "text": "1,732 B",
+        "x": 1158.6881720430108,
+        "width": 84.328125,
+        "baseline": 682,
+        "size": 20
+      },
+      {
+        "text": "6.88%",
+        "x": 1409.84375,
+        "width": 97.15625,
+        "baseline": 668,
+        "size": 28
+      },
+      {
+        "text": "Uncompressed proof",
+        "x": 94,
+        "width": 217.328125,
+        "baseline": 799,
+        "size": 21
+      },
+      {
+        "text": "Compressed proof",
+        "x": 428,
+        "width": 191.75,
+        "baseline": 799,
+        "size": 21
+      },
+      {
+        "text": "Public inputs",
+        "x": 730,
+        "width": 133.75,
+        "baseline": 799,
+        "size": 21
+      },
+      {
+        "text": "4-byte selector",
+        "x": 998,
+        "width": 158.390625,
+        "baseline": 799,
+        "size": 21
+      },
+      {
+        "text": "Complete calldata = selector + proof + 32 bytes per public input. These profiles have 8k + 2 public inputs.",
+        "x": 84,
+        "width": 1075.53125,
+        "baseline": 855,
+        "size": 20
+      }
+    ]
+  },
+  {
+    "file": "03-paired-gas-reconciliation.svg",
+    "text_bounds": [
+      {
+        "text": "PAIRED TRANSACTIONS - SAME PROOF AND PUBLIC INPUTS",
+        "x": 62,
+        "width": 571.875,
+        "baseline": 55,
+        "size": 19
+      },
+      {
+        "text": "Smaller calls. Higher local gas.",
+        "x": 58,
+        "width": 956.96875,
+        "baseline": 122,
+        "size": 55
+      },
+      {
+        "text": "150 paired increases under the recorded Shanghai configuration.",
+        "x": 62,
+        "width": 849.5625,
+        "baseline": 166,
+        "size": 26
+      },
+      {
+        "text": "MEDIANS ACROSS 30 PROOFS PER PROFILE",
+        "x": 87,
+        "width": 433.6875,
+        "baseline": 247,
+        "size": 20
+      },
+      {
+        "text": "k",
+        "x": 90,
+        "width": 11.4375,
+        "baseline": 305,
+        "size": 19
+      },
+      {
+        "text": "DIRECT",
+        "x": 203,
+        "width": 68.625,
+        "baseline": 305,
+        "size": 19
+      },
+      {
+        "text": "COMPRESSED",
+        "x": 414,
+        "width": 114.375,
+        "baseline": 305,
+        "size": 19
+      },
+      {
+        "text": "PAIRED %",
+        "x": 672.25,
+        "width": 86.75,
+        "baseline": 305,
+        "size": 18
+      },
+      {
+        "text": "2",
+        "x": 90,
+        "width": 17.453125,
+        "baseline": 368,
+        "size": 29
+      },
+      {
+        "text": "332,197",
+        "x": 203,
+        "width": 105.328125,
+        "baseline": 368,
+        "size": 25
+      },
+      {
+        "text": "342,100",
+        "x": 414,
+        "width": 105.328125,
+        "baseline": 368,
+        "size": 25
+      },
+      {
+        "text": "+2.98%",
+        "x": 647.015625,
+        "width": 111.984375,
+        "baseline": 368,
+        "size": 26
+      },
+      {
+        "text": "3",
+        "x": 90,
+        "width": 17.453125,
+        "baseline": 436,
+        "size": 29
+      },
+      {
+        "text": "387,577",
+        "x": 203,
+        "width": 105.328125,
+        "baseline": 436,
+        "size": 25
+      },
+      {
+        "text": "397,388",
+        "x": 414,
+        "width": 105.328125,
+        "baseline": 436,
+        "size": 25
+      },
+      {
+        "text": "+2.53%",
+        "x": 647.015625,
+        "width": 111.984375,
+        "baseline": 436,
+        "size": 26
+      },
+      {
+        "text": "4",
+        "x": 90,
+        "width": 17.453125,
+        "baseline": 504,
+        "size": 29
+      },
+      {
+        "text": "442,975",
+        "x": 203,
+        "width": 105.328125,
+        "baseline": 504,
+        "size": 25
+      },
+      {
+        "text": "452,913.5",
+        "x": 414,
+        "width": 135.421875,
+        "baseline": 504,
+        "size": 25
+      },
+      {
+        "text": "+2.24%",
+        "x": 647.015625,
+        "width": 111.984375,
+        "baseline": 504,
+        "size": 26
+      },
+      {
+        "text": "5",
+        "x": 90,
+        "width": 17.453125,
+        "baseline": 572,
+        "size": 29
+      },
+      {
+        "text": "498,449",
+        "x": 203,
+        "width": 105.328125,
+        "baseline": 572,
+        "size": 25
+      },
+      {
+        "text": "508,383.5",
+        "x": 414,
+        "width": 135.421875,
+        "baseline": 572,
+        "size": 25
+      },
+      {
+        "text": "+1.99%",
+        "x": 647.015625,
+        "width": 111.984375,
+        "baseline": 572,
+        "size": 26
+      },
+      {
+        "text": "6",
+        "x": 90,
+        "width": 17.453125,
+        "baseline": 640,
+        "size": 29
+      },
+      {
+        "text": "553,865",
+        "x": 203,
+        "width": 105.328125,
+        "baseline": 640,
+        "size": 25
+      },
+      {
+        "text": "563,741",
+        "x": 414,
+        "width": 105.328125,
+        "baseline": 640,
+        "size": 25
+      },
+      {
+        "text": "+1.78%",
+        "x": 647.015625,
+        "width": 111.984375,
+        "baseline": 640,
+        "size": 26
+      },
+      {
+        "text": "Gas units; paired percentages are computed per proof.",
+        "x": 89,
+        "width": 549.65625,
+        "baseline": 741,
+        "size": 20
+      },
+      {
+        "text": "ONE k=2 PAIR - RUN 1, TRIAL 0",
+        "x": 858,
+        "width": 331.6875,
+        "baseline": 252,
+        "size": 19
+      },
+      {
+        "text": "Extra execution gas",
+        "x": 858,
+        "width": 247.9375,
+        "baseline": 311,
+        "size": 25
+      },
+      {
+        "text": "+12,123",
+        "x": 1230.578125,
+        "width": 272.421875,
+        "baseline": 364,
+        "size": 58
+      },
+      {
+        "text": "Saved intrinsic calldata gas",
+        "x": 858,
+        "width": 343.984375,
+        "baseline": 418,
+        "size": 25
+      },
+      {
+        "text": "-2,048",
+        "x": 1295.453125,
+        "width": 207.546875,
+        "baseline": 471,
+        "size": 58
+      },
+      {
+        "text": "Net transaction gas",
+        "x": 858,
+        "width": 245.21875,
+        "baseline": 541,
+        "size": 25
+      },
+      {
+        "text": "+10,075",
+        "x": 1211.796875,
+        "width": 291.203125,
+        "baseline": 603,
+        "size": 62
+      },
+      {
+        "text": "332,209 direct to 342,284 compressed",
+        "x": 858,
+        "width": 486.875,
+        "baseline": 658,
+        "size": 25
+      },
+      {
+        "text": "Compression evaluated by a read-only local call.",
+        "x": 858,
+        "width": 510.953125,
+        "baseline": 719,
+        "size": 21
+      },
+      {
+        "text": "Execution difference includes both entry points; it is not isolated decompression opcode cost.",
+        "x": 62,
+        "width": 1031.796875,
+        "baseline": 799,
+        "size": 22
+      },
+      {
+        "text": "Medians are statistics; individual transactions use integer gas. No mainnet fees or full-payment cost is inferred.",
+        "x": 84,
+        "width": 1117.890625,
+        "baseline": 855,
+        "size": 20
+      }
+    ]
+  },
+  {
+    "file": "04-proof-acceptance-versus-receipt.svg",
+    "text_bounds": [
+      {
+        "text": "PROOF ACCEPTANCE AND TRANSACTION STATUS",
+        "x": 62,
+        "width": 446.0625,
+        "baseline": 55,
+        "size": 19
+      },
+      {
+        "text": "Check the proof result, too.",
+        "x": 58,
+        "width": 794.140625,
+        "baseline": 122,
+        "size": 51
+      },
+      {
+        "text": "The uncompressed boolean wrapper catches invalid-proof reverts and returns false.",
+        "x": 62,
+        "width": 1050.734375,
+        "baseline": 166,
+        "size": 25
+      },
+      {
+        "text": "ENTRY POINT",
+        "x": 88,
+        "width": 139.046875,
+        "baseline": 246,
+        "size": 21
+      },
+      {
+        "text": "VALID PROOF",
+        "x": 700,
+        "width": 139.046875,
+        "baseline": 246,
+        "size": 21
+      },
+      {
+        "text": "ALTERED INPUT",
+        "x": 1120,
+        "width": 164.328125,
+        "baseline": 246,
+        "size": 21
+      },
+      {
+        "text": "Direct uncompressed",
+        "x": 88,
+        "width": 311.484375,
+        "baseline": 310,
+        "size": 26
+      },
+      {
+        "text": "verifyProofInternal",
+        "x": 88,
+        "width": 228.890625,
+        "baseline": 340,
+        "size": 20
+      },
+      {
+        "text": "Receipt 1; no revert",
+        "x": 700,
+        "width": 238.140625,
+        "baseline": 320,
+        "size": 24
+      },
+      {
+        "text": "Receipt 0; reverted",
+        "x": 1120,
+        "width": 230.609375,
+        "baseline": 320,
+        "size": 24
+      },
+      {
+        "text": "Compressed",
+        "x": 88,
+        "width": 180.296875,
+        "baseline": 392,
+        "size": 26
+      },
+      {
+        "text": "verifyCompressedProof",
+        "x": 88,
+        "width": 252.984375,
+        "baseline": 422,
+        "size": 20
+      },
+      {
+        "text": "Receipt 1; no revert",
+        "x": 700,
+        "width": 238.140625,
+        "baseline": 402,
+        "size": 24
+      },
+      {
+        "text": "Receipt 0; reverted",
+        "x": 1120,
+        "width": 230.609375,
+        "baseline": 402,
+        "size": 24
+      },
+      {
+        "text": "Uncompressed wrapper",
+        "x": 88,
+        "width": 347.375,
+        "baseline": 474,
+        "size": 26
+      },
+      {
+        "text": "verifyProof",
+        "x": 88,
+        "width": 132.515625,
+        "baseline": 504,
+        "size": 20
+      },
+      {
+        "text": "Receipt 1; returns true",
+        "x": 700,
+        "width": 271.046875,
+        "baseline": 484,
+        "size": 24
+      },
+      {
+        "text": "Receipt 1; returns false",
+        "x": 1120,
+        "width": 278.875,
+        "baseline": 484,
+        "size": 24
+      },
+      {
+        "text": "Original: 48 rejected controls",
+        "x": 88,
+        "width": 446.953125,
+        "baseline": 623,
+        "size": 27
+      },
+      {
+        "text": "33 reverted receipts",
+        "x": 88,
+        "width": 254.21875,
+        "baseline": 669,
+        "size": 25
+      },
+      {
+        "text": "15 successful receipts returning false",
+        "x": 88,
+        "width": 467.5,
+        "baseline": 714,
+        "size": 25
+      },
+      {
+        "text": "Pinned caller checks the boolean",
+        "x": 832,
+        "width": 539.703125,
+        "baseline": 624,
+        "size": 29
+      },
+      {
+        "text": "EnygmaV1 requires the wrapper result to be true.",
+        "x": 832,
+        "width": 573.484375,
+        "baseline": 668,
+        "size": 23
+      },
+      {
+        "text": "Source inspected; full payment caller not executed.",
+        "x": 832,
+        "width": 568.65625,
+        "baseline": 713,
+        "size": 22
+      },
+      {
+        "text": "450 valid verifier transactions were replayed with matching calldata and gas, plus these 48 rejection controls.",
+        "x": 62,
+        "width": 1213.53125,
+        "baseline": 799,
+        "size": 22
+      },
+      {
+        "text": "Acceptance was checked with the call result and receipt together. This is not evidence of an invalid-payment bypass.",
+        "x": 84,
+        "width": 1174.203125,
+        "baseline": 855,
+        "size": 20
+      }
+    ]
+  },
+  {
+    "file": "05-fresh-proof-trace-evidence.svg",
+    "text_bounds": [
+      {
+        "text": "FRESH WITNESSES - NATIVE PROOFS - SOLIDITY - CALL TRACES",
+        "x": 62,
+        "width": 640.5,
+        "baseline": 55,
+        "size": 19
+      },
+      {
+        "text": "Find the cost inside the call.",
+        "x": 58,
+        "width": 896.3125,
+        "baseline": 122,
+        "size": 56
+      },
+      {
+        "text": "15 selected pairs: same proof and public inputs, two verifier entry points.",
+        "x": 62,
+        "width": 957.21875,
+        "baseline": 166,
+        "size": 26
+      },
+      {
+        "text": "15 witness variants",
+        "x": 86,
+        "width": 309.03125,
+        "baseline": 247,
+        "size": 28
+      },
+      {
+        "text": "45 new native proofs",
+        "x": 86,
+        "width": 252.890625,
+        "baseline": 285,
+        "size": 24
+      },
+      {
+        "text": "Native + Solidity",
+        "x": 590,
+        "width": 265.390625,
+        "baseline": 247,
+        "size": 28
+      },
+      {
+        "text": "135 accepted calls",
+        "x": 590,
+        "width": 225.3125,
+        "baseline": 285,
+        "size": 24
+      },
+      {
+        "text": "15 paired traces",
+        "x": 1094,
+        "width": 258.1875,
+        "baseline": 247,
+        "size": 28
+      },
+      {
+        "text": "30 traced transactions",
+        "x": 1094,
+        "width": 271.0625,
+        "baseline": 285,
+        "size": 24
+      },
+      {
+        "text": "COMPRESSED ROUTE: EXTRA WORK",
+        "x": 88,
+        "width": 337.3125,
+        "baseline": 389,
+        "size": 20
+      },
+      {
+        "text": "Five modexp calls",
+        "x": 88,
+        "width": 282.34375,
+        "baseline": 441,
+        "size": 28
+      },
+      {
+        "text": "6,701 gas",
+        "x": 546.125,
+        "width": 197.875,
+        "baseline": 441,
+        "size": 36
+      },
+      {
+        "text": "Saved intrinsic gas",
+        "x": 88,
+        "width": 289.828125,
+        "baseline": 553,
+        "size": 27
+      },
+      {
+        "text": "2,024 to 2,060",
+        "x": 88,
+        "width": 360.203125,
+        "baseline": 605,
+        "size": 44
+      },
+      {
+        "text": "Same scale; saving bar shows 2,060 gas.",
+        "x": 88,
+        "width": 454.25,
+        "baseline": 721,
+        "size": 22
+      },
+      {
+        "text": "BOTH ROUTES: SHARED WORK",
+        "x": 833,
+        "width": 303.375,
+        "baseline": 391,
+        "size": 21
+      },
+      {
+        "text": "8k + 2 EC additions",
+        "x": 833,
+        "width": 296.640625,
+        "baseline": 448,
+        "size": 30
+      },
+      {
+        "text": "8k + 2 EC multiplications",
+        "x": 833,
+        "width": 379.078125,
+        "baseline": 496,
+        "size": 30
+      },
+      {
+        "text": "1 pairing-precompile call",
+        "x": 833,
+        "width": 372.421875,
+        "baseline": 544,
+        "size": 30
+      },
+      {
+        "text": "Extra exponentiation alone",
+        "x": 833,
+        "width": 459.25,
+        "baseline": 624,
+        "size": 30
+      },
+      {
+        "text": "exceeds the calldata saving.",
+        "x": 833,
+        "width": 413.59375,
+        "baseline": 666,
+        "size": 29
+      },
+      {
+        "text": "Callee gas excludes other entry-point overhead.",
+        "x": 833,
+        "width": 529.890625,
+        "baseline": 724,
+        "size": 22
+      },
+      {
+        "text": "Supplemental trial-0 traces only - Local Shanghai EVM - Not full-payment cost or a production fee quote.",
+        "x": 84,
+        "width": 1047.234375,
+        "baseline": 855,
+        "size": 20
+      }
+    ]
+  }
+]
